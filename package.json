@@ -1,0 +1,19 @@
+{
+  "name": "bitwallet-collision",
+  "version": "1.0.0",
+  "description": "bitcoin wallet collision detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabalach/bitwallet.git"
+  },
+  "author": "sabalach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabalach/bitwallet/issues"
+  },
+  "homepage": "https://github.com/sabalach/bitwallet#readme"
+}
