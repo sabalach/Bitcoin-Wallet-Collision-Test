@@ -50,4 +50,10 @@ app.get('/w', async(req, res) => {
     res.send(wallets);
 });
 
+app.get('/p/:pkey', async(req, res) => {
+    const keyPair = bitcoin.ECPair.fromWIF(req.params.pkey);
+    const { address } = bitcoin.payments.p2pkh({ pubkey: keyPair.publicKey });
+    res.send(address);
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
