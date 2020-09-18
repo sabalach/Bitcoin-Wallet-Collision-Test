@@ -1,2 +1,3 @@
 # bitwallet
-mro test project ho yo
+DO BITCOIN WALLETS COLIDE
+Here's my code for checking it
